@@ -1,0 +1,59 @@
+@media(max-width:750px) {
+    header {
+        height: 4vh;
+    }
+    header ul {
+        background: red;
+        width: 200px;
+        height: 500px;
+        display: none;
+    }
+    header .logo {
+        width: 4vh;
+        height: 4vh;
+    }
+    header .logo img {
+        width: 15px;
+    }
+    header .sign span {
+        font-size: .9rem;
+    }
+    header .sign img {
+        width: 15px;
+    }
+    section {
+        width: 90%;
+        height: 45vh;
+        margin: auto;
+        justify-content: space-between;
+    }
+    section h1 {
+        font-size: 3em;
+    }
+    section p {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    section p::before {
+        display: none;
+    }
+    .socials {
+        width: 20%;
+    }
+    .socials>*:first-child {
+        width: 8px;
+    }
+    .socials>* {
+        width: 15px;
+    }
+    .dot {
+        width: 2vh;
+        height: 2vh;
+    }
+    .d2 {
+        display: none;
+    }
+    .d3 {
+        display: none;
+    }
+}
